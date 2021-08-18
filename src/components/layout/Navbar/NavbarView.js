@@ -3,7 +3,7 @@ import React from 'react'
 const NavbarView = (props) => {
     return (
         <>
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav id="pageTop" className="navbar navbar-expand-md navbar-dark bg-dark">
 
                 <button className="btn btn-outline-light" data-toggle="drawer" data-target="#amazonDrawer">
                     <i className="fas fa-sliders-h"></i>
