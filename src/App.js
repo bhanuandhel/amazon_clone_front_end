@@ -1,8 +1,11 @@
-import NavbarContainer from "./components/layout/Navbar/NavbarContainer";
+import React from 'react';
+import LandingPage from "./components/layout/LandingPage";
 
 function App() {
   return (
-      <NavbarContainer />
+    <>
+      <LandingPage />
+    </>
   );
 }
 
