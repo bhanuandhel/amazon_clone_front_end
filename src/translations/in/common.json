@@ -6,7 +6,14 @@
         "btn_signin_title":"दाखिल करना",
         "menu_signin_btn_title":"दाखिल करना",
         "menu_signin_sub_title":"नए ग्राहक",
-        "menu_signing_register_text":"यहाँ से शुरू"
+        "menu_signing_register_text":"यहाँ से शुरू",
+        "productCategory":{
+            "all":"सभी",
+            "smartphone":"स्मार्टफोन",
+            "kitchen_hardware":"रसोई हार्डवेयर",
+            "prime_deal":"प्रमुख सौदे",
+            "book":"पुस्तक"
+        }
 
 
     }
