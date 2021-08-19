@@ -10,7 +10,7 @@ class HomePageProductContainer extends Component {
     }
     render() {
         return (
-           <HomePageProductView />
+           <HomePageProductView  {...this.props} />
         )
     }
 }

@@ -5,19 +5,19 @@ const ImageSlider = () => {
         <div id="amazonImageSlider" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <a href="https://www.google.com"><img src="assets/img/slider/slide01.png" className="d-block w-100" height="500" alt="slide image1 01" /></a>
+                    <a href="#"><img src="assets/img/slider/slide01.png" className="d-block w-100" height="500" alt="slide image1 01" /></a>
                 </div>
                 <div className="carousel-item">
-                    <a href="https://www.google.com"><img src="assets/img/slider/slide02.png" className="d-block w-100" height="500" alt="slide image2 02" /></a>
+                    <a href="#"><img src="assets/img/slider/slide02.png" className="d-block w-100" height="500" alt="slide image2 02" /></a>
                 </div>
                 <div className="carousel-item">
-                    <a href="https://www.google.com"><img src="assets/img/slider/slide03.png" className="d-block w-100" height="500" alt="slide image3 03" /></a>
+                    <a href="#"><img src="assets/img/slider/slide03.png" className="d-block w-100" height="500" alt="slide image3 03" /></a>
                 </div>
                 <div className="carousel-item ">
-                    <a href="https://www.google.com"><img src="assets/img/slider/slide04.png" className="d-block w-100" height="500" alt="slide image4 04" /></a>
+                    <a href="#"><img src="assets/img/slider/slide04.png" className="d-block w-100" height="500" alt="slide image4 04" /></a>
                 </div>
                 <div className="carousel-item">
-                    <a href="https://www.google.com"><img src="assets/img/slider/slide05.png" className="d-block w-100" height="500" alt="slide image5 05" /></a>
+                    <a href="#"><img src="assets/img/slider/slide05.png" className="d-block w-100" height="500" alt="slide image5 05" /></a>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#amazonImageSlider" role="button" data-slide="prev">

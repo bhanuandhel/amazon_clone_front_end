@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomePageProductView = () => {
+const HomePageProductView = (props) => {
     return (
         <div className="container mb-5" style={{marginTop:"-200px"}}>
             <div className="row">

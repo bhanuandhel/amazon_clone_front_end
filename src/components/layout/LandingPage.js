@@ -4,14 +4,14 @@ import Footer from './Footer'
 import ImageSlider from './ImageSlider'
 import NavbarContainer from './Navbar/NavbarContainer'
 
-const LandingPage = () => {
+const LandingPage = (props) => {
     return (
         <>
-            <NavbarContainer />
+            <NavbarContainer {...props} />
             <div className="container-fluid px-0">
                 <ImageSlider />
                 <HomePageProductContainer />
-                <Footer />
+                <Footer {...props} />
             </div>
         </>
     )
