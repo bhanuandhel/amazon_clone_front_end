@@ -12,7 +12,7 @@ import common_en from "./translations/en/common.json";
 i18next.init({
   whitelist: ['pk', 'in', 'bd', 'en'],
   interpolation: { escapeValue: false },  // React already does escaping
-  lng: 'pk',                              // language to use
+  lng: 'en',                              // language to use
   resources: {
     en: {
       common: common_en               // 'common' is our custom namespace

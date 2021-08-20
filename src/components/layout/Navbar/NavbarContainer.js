@@ -9,11 +9,11 @@ class NavbarContainer extends Component {
             prefLang: this.props.i18n.languages[0],
             selectedCat: 0,
             productCategory:[
-                "navbar.productCategory.all",
-                "navbar.productCategory.smartphone",
-                "navbar.productCategory.kitchen_hardware",
-                "navbar.productCategory.prime_deal",
-                "navbar.productCategory.book"
+                "navbar.product_category.all",
+                "navbar.product_category.smartphone",
+                "navbar.product_category.kitchen_hardware",
+                "navbar.product_category.prime_deal",
+                "navbar.product_category.book"
             ],
             query:""
         }
