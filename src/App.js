@@ -14,12 +14,14 @@ import LandingPage from './components/layout/LandingPage';
 import RegisterContainer from './components/Register/RegisterContainer';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import YourAccountContainer from './components/YourAccount/YourAccountContainer';
 
 function App() {
   const [t, i18n] = useTranslation('common');
   const Login = () => (<LoginContainer t={t} i18n={i18n} />)
   const Register = () => (<RegisterContainer t={t} i18n={i18n} />)
   const Landing = () => (<LandingPage t={t} i18n={i18n} />)
+  const YourAccount = () =>(<YourAccountContainer t={t} i18n={i18n} />)
   return (
     <Provider store={store}>
     <Router>
@@ -27,6 +29,7 @@ function App() {
         <Route exact path="/" component={Landing} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/your-account" component={YourAccount} />
       <Footer t={t} i18n={i18n} />
     </Router>
     </Provider>
