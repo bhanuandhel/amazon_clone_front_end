@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import LoginView from './LoginView'
+import { loginRequest } from './../../redux/actions/loginActions'
+import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 
 export class LoginContainer extends Component {
     constructor(props) {
@@ -18,7 +21,12 @@ export class LoginContainer extends Component {
 
     handleSubmit = (e) =>{
         e.preventDefault();
-        console.log(this.state)
+        const user = {
+            email: this.state.email,
+            password: this.state.password
+          }
+      
+          this.props.loginRequest(user, this.props.history)
     }
 
     render() {
@@ -37,4 +45,12 @@ export class LoginContainer extends Component {
     }
 }
 
-export default LoginContainer
+const mapStateToProps = (state) => ({
+    login: state.login
+  })
+  
+  const mapDispatchToProps = {
+    loginRequest
+  }
+  
+  export default connect(mapStateToProps, mapDispatchToProps)(withRouter(LoginContainer))
